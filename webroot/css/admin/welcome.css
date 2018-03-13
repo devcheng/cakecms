@@ -1,0 +1,171 @@
+#bjui-header > .bjui-navbar-header > .bjui-navbar-logo {
+    padding-left: 24px;
+    font-size:30px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+#bjui-header > .bjui-navbar-header > .bjui-navbar-logo img{
+    max-height: 50px;
+    width: auto;
+}
+#bjui-header{
+    height: 89px;
+}
+#bjui-footer {
+    height: 30px;
+    line-height: 16px;
+}
+#bjui-hnav{
+    top: 57px;
+}
+.bjui-searchBar {
+    padding: 4px 0 6px 0;
+}
+.datagrid-toolbar {
+    width: 100%;
+    padding: 6px 0;
+    min-height: 34px;
+}
+.table > thead > tr > th {
+    height: 24px;
+    line-height: 24px;
+}
+.bjui-pageContent .table > tbody > tr:first-child > td {
+    border-top: none;
+}
+.table.table-condensed > tbody > tr > td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/*  table css  */
+.tablecomm .table > thead > tr > th, .tablecomm .table > tbody > tr > th, .tablecomm .table > tfoot > tr > th, .tablecomm .table > thead > tr > td, .tablecomm .table > tbody > tr > td, .tablecomm .table > tfoot > tr > td {
+    padding: 2px 3px;
+    vertical-align: top;
+}
+.tablecomm .table > thead > tr > th, .tablecomm .table > tbody > tr > th, .tablecomm .table > tfoot > tr > th, .tablecomm .table > thead > tr > td, .tablecomm .table > tbody > tr > td, .tablecomm .table > tfoot > tr > td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#logo_pic, #j_custom_span_pic, #j_article_pic, #j_article_pic_edit {
+    display: block;
+    margin-bottom: 20px;
+}
+#logo_pic img {
+    display: block;
+    padding: 1px;
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    background: #ddd;
+}
+#j_custom_span_pic img {
+    display: block;
+    padding: 1px;
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    max-width: 150px;
+    height: auto;
+    text-align: center;
+}
+#j_article_pic img {
+    display: block;
+    padding: 1px;
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+}
+#j_article_pic_edit img {
+    display: block;
+    padding: 1px;
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+}
+.bjui-upload > .queue{
+    display: none;
+    padding: 0;
+}
+.bjui-upload > .queue > .item {
+    display: none;
+}
+#pagerForm {
+    border-bottom: 1px #ccc solid;
+}
+.tabnoboder .tab-content{
+    border-style: none;
+}
+.tabnoboder .nav-tabs a{
+    font-size: 16px;
+}
+.tabnoboder .table > tbody > tr > td {
+    border: none;
+}
+.tabnoboder .btn-save {
+    height: 40px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.btn-upload {
+    text-align: center;
+}
+.distance {
+    width: 52px;
+    height: 10px;
+    display: inline-block;
+}
+.margin-content {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.article-img {
+    width: 50px;
+    height: 50px;
+}
+.article-title {
+    display: inline-block;
+    margin: 8px 6px 8px 0;
+    font-size: 15px;
+}
+.isRed {
+    color: #ff0000;
+}
+.isBold {
+    font-weight: bold;
+}
+.delpic {
+    position: relative;
+    right: -12px;
+    top: 12px;
+    display: table;
+    float: right;
+    z-index: 20;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 26px !important;
+}
+.pic-none {
+    display: none;
+}
+.kong {
+    color: #46b8da;
+     background-color: #fafafa;
+    border-color: #46b8da;
+}
+.logout {
+    background: #16669e;
+    margin: 0 10px;
+}
+@media (min-width: 1200px) {
+    .colspan-left {
+        width: 60%;
+    }
+}
